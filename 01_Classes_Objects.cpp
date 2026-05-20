@@ -30,10 +30,11 @@ public:
 int main()
 {
     Car corolla("Toyota", "Corolla");
-    
+
     corolla.accelerate(20);
 
     corolla.displayStatus();
 
     return 0;
 }
+
